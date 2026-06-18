@@ -4246,10 +4246,6 @@
     .hanging-card {
         animation-duration: 8s !important;
     }
-
-    .ht-rope-line {
-        display: none !important;
-    }
 }
 
 /* --- Footer Mobile Cleanup --- */
