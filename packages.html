@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CallingHills — Offbeat Himalayan Journeys | Darjeeling · Kalimpong · Dooars · Sikkim</title>
+    <meta name="description" content="Discover soulful, offbeat Himalayan travel experiences across Darjeeling, Kalimpong, Dooars & Sikkim. Handcrafted journeys that answer with adventure.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300;1,9..40,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" type="image/png" href="./logo up.jpeg">
+</head>
+<body>
+    <div class="ambient-gradient-bg"></div>
+    <!-- ═══════════ LOADER ═══════════ -->
+    <div class="loader" id="loader">
+        <img src="./logo up.jpeg" alt="CallingHills" class="loader-logo-img" style="width: 120px; height: 120px; margin-bottom: 24px;">
+        <div class="loader-brand">Calling<span>Hills</span></div>
+        <div class="loader-bar-track">
+            <div class="loader-bar" id="loader-bar"></div>
+        </div>
+    </div>
+
+    <!-- ═══════════ NAVBAR ═══════════ -->
+    <nav class="navbar" id="navbar">
+        <a href="./index.html" class="nav-logo" id="nav-logo">
+            <img src="./logo up.jpeg" alt="CallingHills Logo" class="nav-logo-img" style="height: 42px; width: auto; ">
+            <div class="nav-logo-text">Calling<span>Hills</span></div>
+        </a>
+
+        <ul class="nav-links" id="nav-links">
+            <li><a href="./destinations.html">Destinations</a></li>
+            <li><a href="./packages.html">Packages</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li><a href="./reviews.html">Reviews</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+
+        <div class="nav-right">
+            <a href="./packages.html" class="nav-cta" id="nav-cta">Plan My Trip</a>
+            <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="./destinations.html">Destinations</a>
+        <a href="./packages.html">Packages</a>
+        <a href="./about.html">About</a>
+        <a href="./gallery.html">Gallery</a>
+        <a href="./reviews.html">Reviews</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./packages.html" style="color: var(--ch-gold); margin-top: 16px;">Plan My Trip &rarr;</a>
+    </div>
+
+<div style="height: 72px;"></div>
+<section class="packages-section" id="packages">
+        <div class="pkg-container">
+            <div class="section-tag">✦ CURATED JOURNEYS</div>
+            <h2 class="section-title" style="margin-bottom: 12px;">Our Signature Packages</h2>
+            <p style="font-family: var(--font-body); font-size: 18px; color: var(--ch-text-mid); max-width: 600px;">
+                Every itinerary is hand-crafted — not copy-pasted. Built for travellers who want real experiences.
+            </p>
+
+            <div class="pkg-grid">
+                <!-- Package 1: Darjeeling -->
+                <div class="pkg-card featured-card">
+                    <img src="pkg-darjeeling.png" alt="Misty Darjeeling hills at sunrise" class="pkg-image" loading="lazy">
+                    <div class="pkg-body">
+                        <div class="pkg-header-top">
+                            <span class="pkg-badge">Featured Package</span>
+                            <span class="pkg-duration">3 Days / 2 Nights</span>
+                        </div>
+                        
+                        <h3 class="pkg-title">Darjeeling Leisure Package</h3>
+                        
+                        <div class="pkg-meta">
+                            <span><strong>Theme:</strong> The Queen of Hills Experience</span>
+                        </div>
+
+                        <div class="pkg-teaser">
+                            Enjoy the cool mountain weather, wake up to Kanchenjunga views, and explore heritage tea estates and local culture on this relaxing short getaway.
+                        </div>
+
+                        <div class="pkg-price-tag">
+                            Starting @ ₹3,999/- <span style="font-size: 12px; font-weight: 500; color: var(--ch-text-mid);">*T&C Applied</span>
+                        </div>
+
+                        <div class="pkg-route">
+                            Route: NJP / Bagdogra → Kurseong → Darjeeling → Mirik → NJP / Bagdogra
+                        </div>
+
+                        <div class="pkg-highlights">
+                            <div class="pkg-highlights-title">Package Highlights</div>
+                            <div class="pkg-highlights-list">
+                                <span class="pkg-highlight-pill">Kurseong View Point</span>
+                                <span class="pkg-highlight-pill">Dow Hill Forest</span>
+                                <span class="pkg-highlight-pill">Chowrasta Mall Road</span>
+                                <span class="pkg-highlight-pill">Keventers Breakfast</span>
+                                <span class="pkg-highlight-pill">Gopaldhara Tea Estate</span>
+                                <span class="pkg-highlight-pill">Mirik Lake</span>
+                            </div>
+                        </div>
+
+                        <div class="accordion">
+                            <button class="accordion-btn">
+                                <span>View Full Details & Itinerary</span>
+                                <svg class="accordion-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                            </button>
+                            <div class="accordion-content">
+                                <div class="accordion-content-inner">
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 1 — NJP / Bagdogra to Darjeeling</div>
+                                        <div class="day-desc">Arrival at NJP/Bagdogra. Meet & greet by CallingHills representative and begin your scenic journey towards Darjeeling, with en-route Kurseong sightseeing. Check-in and relax.</div>
+                                        <ul class="day-list">
+                                            <li>Kurseong View Point & Giddapahar View Point</li>
+                                            <li>Dow Hill Forest Area</li>
+                                            <li>Chimney Heritage Garden & Village</li>
+                                            <li>Hanuman Tak View Point</li>
+                                        </ul>
+                                        <div class="day-meals">Meals Included: Dinner</div>
+                                    </div>
+                                    
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 2 — Darjeeling Leisure Day</div>
+                                        <div class="day-desc">Wake up to the magnificent Himalayan atmosphere and Kanchenjunga views. Enjoy a free day for leisure activities around the Queen of Hills.</div>
+                                        <ul class="day-list">
+                                            <li>Keventers Breakfast Experience & Chowrasta Walk</li>
+                                            <li>Local Shopping & Heritage Building Photography</li>
+                                            <li>Observatory Hill & Local Tea Tasting</li>
+                                            <li>Café Hopping & Himalayan Sunset Experience</li>
+                                        </ul>
+                                        <div class="day-meals">Meals Included: Breakfast, Lunch & Dinner</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 3 — Darjeeling to NJP / Bagdogra Drop</div>
+                                        <div class="day-desc">Check-out after breakfast and proceed towards NJP/Bagdogra via the scenic Mirik route.</div>
+                                        <ul class="day-list">
+                                            <li>Lepchajagat & Simana View Point</li>
+                                            <li>Indo-Nepal Border & Pashupati Market</li>
+                                            <li>Gopaldhara Tea Estate View Point</li>
+                                            <li>Mirik Lake & Town</li>
+                                        </ul>
+                                        <div class="day-meals">Meals Included: Breakfast</div>
+                                    </div>
+
+                                    <div class="incl-excl">
+                                        <div>
+                                            <h4>✔ Inclusions</h4>
+                                            <ul>
+                                                <li>Kanchenjunga View Room</li>
+                                                <li>MAP Meal Plan</li>
+                                                <li>Personal Reserved Vehicle & Driver</li>
+                                                <li>CallingHills Travel Kit</li>
+                                                <li>Pickup & Drop Service</li>
+                                                <li>24×7 Tour Support & Assistance</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4>✖ Exclusions</h4>
+                                            <ul>
+                                                <li>Train/Flight Tickets & Entry Fees</li>
+                                                <li>Parking & Toll Taxes</li>
+                                                <li>Camera, Ropeway, Boating Charges</li>
+                                                <li>Personal/Medical Expenses</li>
+                                                <li>Travel Insurance</li>
+                                                <li>Additional Meals/Sightseeing</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Policies & FAQs -->
+                                    <div class="policy-block" style="margin-top: 32px; padding-top: 24px; border-top: 1px dashed rgba(48, 109, 41, 0.2);">
+                                        <h4 style="color: var(--ch-green-deep); margin-bottom: 12px; font-family: var(--font-heading);">Booking & Cancellation Policy</h4>
+                                        <ul style="font-size: 13px; color: var(--ch-text-dark); line-height: 1.6; padding-left: 16px; margin-bottom: 16px;">
+                                            <li>30% Advance Payment required for booking confirmation (Non-Refundable).</li>
+                                            <li>Remaining 70% payment must be cleared on tour by the second day.</li>
+                                            <li>Cancellations within 30 days prior to travel are non-refundable.</li>
+                                            <li>One-time rescheduling allowed up to 180 days from travel date (subject to availability/seasonality).</li>
+                                        </ul>
+                                        
+                                        <h4 style="color: var(--ch-green-deep); margin-bottom: 12px; font-family: var(--font-heading);">Important Terms</h4>
+                                        <ul style="font-size: 13px; color: var(--ch-text-dark); line-height: 1.6; padding-left: 16px; margin-bottom: 16px;">
+                                            <li>Sightseeing and Kanchenjunga views are subject to weather, road conditions, and administrative restrictions.</li>
+                                            <li>CallingHills reserves the right to modify the route for guest safety or operational reasons.</li>
+                                            <li>Guests are responsible for personal belongings; CallingHills is not liable for losses/delays due to force majeure.</li>
+                                        </ul>
+                                        
+                                        <h4 style="color: var(--ch-green-deep); margin-bottom: 12px; font-family: var(--font-heading);">FAQ</h4>
+                                        <div style="font-size: 13px; color: var(--ch-text-dark); line-height: 1.6;">
+                                            <p style="margin-bottom: 8px;"><strong>Will all sightseeing be covered?</strong> It depends on weather, traffic, and safety. Points may be replaced if necessary.</p>
+                                            <p style="margin-bottom: 8px;"><strong>Is travel insurance included?</strong> No. Guests are strongly advised to purchase it independently.</p>
+                                            <p><strong>What should I carry?</strong> Valid Govt Photo ID, warm clothing, comfortable shoes, medicines, and umbrella.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pkg-ctas">
+                            <button class="btn-primary">Enquire Now &rarr;</button>
+                            <button class="btn-secondary">🛒 Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Package 2: Silk Route -->
+                <div class="pkg-card">
+                    <img src="pkg-silkroute.png" alt="Silk Route hairpin road in East Sikkim" class="pkg-image" loading="lazy">
+                    <div class="pkg-body">
+                        <div class="pkg-header-top">
+                            <span class="pkg-badge" style="background: transparent; color: transparent;">-</span> <!-- Spacer for alignment -->
+                            <span class="pkg-duration">6 Days / 5 Nights</span>
+                        </div>
+                        
+                        <h3 class="pkg-title">Silk Route Explorer</h3>
+                        
+                        <div class="pkg-meta">
+                            <span><strong>Type:</strong> Adventure · High Altitude · History</span>
+                            <span><strong>Best For:</strong> Friends · Bikers · Adventurers</span>
+                        </div>
+
+                        <div class="pkg-teaser">
+                            An ancient mountain highway, hairpin bends into the clouds, quiet border villages, and sunrises over the old Tibetan trading route.
+                        </div>
+
+                        <div class="pkg-price-tag">
+                            Starting @ On Request <span style="font-size: 12px; font-weight: 500; color: var(--ch-text-mid);">*T&C Applied</span>
+                        </div>
+
+                        <div class="pkg-route">
+                            Route: NJP → Aritar → Rongli → Zuluk → Gnathang → Kupup → Gangtok / NJP
+                        </div>
+
+                        <div class="pkg-highlights">
+                            <div class="pkg-highlights-title">Package Highlights</div>
+                            <div class="pkg-highlights-list">
+                                <span class="pkg-highlight-pill">Zuluk Loop (96 Turns)</span>
+                                <span class="pkg-highlight-pill">Gnathang Valley</span>
+                                <span class="pkg-highlight-pill">Nathang Plateau</span>
+                                <span class="pkg-highlight-pill">Old Silk Route</span>
+                                <span class="pkg-highlight-pill">Kupup Lake</span>
+                                <span class="pkg-highlight-pill">Thambi View Point</span>
+                            </div>
+                        </div>
+
+                        <div class="accordion">
+                            <button class="accordion-btn">
+                                <span>View Full Day-by-Day Itinerary</span>
+                                <svg class="accordion-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                            </button>
+                            <div class="accordion-content">
+                                <div class="accordion-content-inner">
+                                    <div class="day-plan">
+                                        <div class="day-desc" style="font-style: italic;">Detailed itinerary available upon request. Please enquire for the full day-by-day plan of the Silk Route Explorer package.</div>
+                                    </div>
+                                    <div class="incl-excl">
+                                        <div>
+                                            <h4>✔ Inclusions</h4>
+                                            <ul>
+                                                <li>Premium Cozy Homestay/Hotel Stay</li>
+                                                <li>All Meals as per itinerary</li>
+                                                <li>Private Personal Vehicle & Driver</li>
+                                                <li>Inner Line Permits</li>
+                                                <li>24×7 Travel Support</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4>✖ Exclusions</h4>
+                                            <ul>
+                                                <li>Train / Flight Tickets</li>
+                                                <li>Entry Fees</li>
+                                                <li>Personal Expenses</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pkg-ctas">
+                            <button class="btn-primary">Enquire Now &rarr;</button>
+                            <button class="btn-secondary">🛒 Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Package 3: Dooars -->
+                <div class="pkg-card">
+                    <img src="pkg-dooars.png" alt="Dooars river camp at dusk" class="pkg-image" loading="lazy">
+                    <div class="pkg-body">
+                        <div class="pkg-header-top">
+                            <span class="pkg-badge" style="background: transparent; color: transparent;">-</span>
+                            <span class="pkg-duration">5 Days / 4 Nights</span>
+                        </div>
+                        
+                        <h3 class="pkg-title">Dooars Wildlife Safari</h3>
+                        
+                        <div class="pkg-meta">
+                            <span><strong>Type:</strong> Wildlife · Forest Camping · Rivers</span>
+                            <span><strong>Best For:</strong> Nature Lovers · Families</span>
+                        </div>
+
+                        <div class="pkg-teaser">
+                            Where the jungle meets the river and the mountains begin — camp beside wild rivers, spot elephants, and hear the forest come alive at night.
+                        </div>
+
+                        <div class="pkg-price-tag">
+                            Starting @ On Request <span style="font-size: 12px; font-weight: 500; color: var(--ch-text-mid);">*T&C Applied</span>
+                        </div>
+
+                        <div class="pkg-route">
+                            Route: NJP → Jhalong → Bindu → Samsing → Rocky Island → Rajabhatkhawa
+                        </div>
+
+                        <div class="pkg-highlights">
+                            <div class="pkg-highlights-title">Package Highlights</div>
+                            <div class="pkg-highlights-list">
+                                <span class="pkg-highlight-pill">Jhalong River Camp</span>
+                                <span class="pkg-highlight-pill">Bindu Border Forest</span>
+                                <span class="pkg-highlight-pill">Chilapata Jungle</span>
+                                <span class="pkg-highlight-pill">Elephant Safari</span>
+                                <span class="pkg-highlight-pill">Birdwatching at Rajabhatkhawa</span>
+                            </div>
+                        </div>
+
+                        <div class="accordion">
+                            <button class="accordion-btn">
+                                <span>View Full Day-by-Day Itinerary</span>
+                                <svg class="accordion-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                            </button>
+                            <div class="accordion-content">
+                                <div class="accordion-content-inner">
+                                    <div class="day-plan">
+                                        <div class="day-desc" style="font-style: italic;">Detailed itinerary available upon request. Please enquire for the full day-by-day plan of the Dooars Safari package.</div>
+                                    </div>
+                                    <div class="incl-excl">
+                                        <div>
+                                            <h4>✔ Inclusions</h4>
+                                            <ul>
+                                                <li>Premium Camps/Resorts</li>
+                                                <li>All Meals as per itinerary</li>
+                                                <li>Private Personal Vehicle</li>
+                                                <li>24×7 Travel Support</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4>✖ Exclusions</h4>
+                                            <ul>
+                                                <li>Train / Flight Tickets</li>
+                                                <li>Jungle Safari Tickets & Guide Fees</li>
+                                                <li>Personal Expenses</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pkg-ctas">
+                            <button class="btn-primary">Enquire Now &rarr;</button>
+                            <button class="btn-secondary">🛒 Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Package 4: Sikkim -->
+                <div class="pkg-card">
+                    <img src="pkg-sikkim.png" alt="Pelling monastery at sunset" class="pkg-image" loading="lazy">
+                    <div class="pkg-body">
+                        <div class="pkg-header-top">
+                            <span class="pkg-badge" style="background: transparent; color: transparent;">-</span>
+                            <span class="pkg-duration">7 Days / 6 Nights</span>
+                        </div>
+                        
+                        <h3 class="pkg-title">Sikkim Monastery Circuit</h3>
+                        
+                        <div class="pkg-meta">
+                            <span><strong>Type:</strong> Culture · Spiritual · Mountains</span>
+                            <span><strong>Best For:</strong> Peace Seekers · Photographers</span>
+                        </div>
+
+                        <div class="pkg-teaser">
+                            A sacred loop through West Sikkim's most spiritual landscapes — ancient monasteries, waterfall trails, prayer flag valleys, and the shadow of Kanchenjunga.
+                        </div>
+
+                        <div class="pkg-price-tag">
+                            Starting @ On Request <span style="font-size: 12px; font-weight: 500; color: var(--ch-text-mid);">*T&C Applied</span>
+                        </div>
+
+                        <div class="pkg-route">
+                            Route: NJP → Pelling → Yuksom → Uttarey → Hee-Bermiok → NJP
+                        </div>
+
+                        <div class="pkg-highlights">
+                            <div class="pkg-highlights-title">Package Highlights</div>
+                            <div class="pkg-highlights-list">
+                                <span class="pkg-highlight-pill">Pemayangtse Monastery</span>
+                                <span class="pkg-highlight-pill">Yuksom Coronation Throne</span>
+                                <span class="pkg-highlight-pill">Barsey Rhododendron Sanctuary</span>
+                                <span class="pkg-highlight-pill">Uttarey</span>
+                                <span class="pkg-highlight-pill">Rabdentse Ruins</span>
+                            </div>
+                        </div>
+
+                        <div class="accordion">
+                            <button class="accordion-btn">
+                                <span>View Full Day-by-Day Itinerary</span>
+                                <svg class="accordion-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                            </button>
+                            <div class="accordion-content">
+                                <div class="accordion-content-inner">
+                                    <div class="day-plan">
+                                        <div class="day-desc" style="font-style: italic;">Detailed itinerary available upon request. Please enquire for the full day-by-day plan of the Sikkim Monastery Circuit package.</div>
+                                    </div>
+                                    <div class="incl-excl">
+                                        <div>
+                                            <h4>✔ Inclusions</h4>
+                                            <ul>
+                                                <li>Premium Cozy Homestay/Hotel Stay</li>
+                                                <li>All Meals as per itinerary</li>
+                                                <li>Private Personal Vehicle</li>
+                                                <li>24×7 Travel Support</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4>✖ Exclusions</h4>
+                                            <ul>
+                                                <li>Train / Flight Tickets</li>
+                                                <li>Entry Fees</li>
+                                                <li>Personal Expenses</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pkg-ctas">
+                            <button class="btn-primary">Enquire Now &rarr;</button>
+                            <button class="btn-secondary">🛒 Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+<footer class="footer">
+        <div class="footer-watermark">CallingHills</div>
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="./index.html" class="nav-logo" id="nav-logo">
+            <img src="./logo up.jpeg" alt="CallingHills Logo" class="nav-logo-img" style="height: 42px; width: auto; ">
+            <div class="nav-logo-text">Calling<span>Hills</span></div>
+        </a>
+                    <p>Discover Hidden Trails, Hill Villages & Nature's Soul</p>
+                </div>
+                
+                                                <div class="footer-links">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="./destinations.html">Destinations</a></li>
+                        <li><a href="./packages.html">Signature Packages</a></li>
+                        <li><a href="./treks.html">Trekking Routes</a></li>
+                        <li><a href="./about.html#services">Our Services</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./gallery.html">Gallery</a></li>
+                        <li><a href="./contact.html">Contact Us</a></li>
+                        <li><a href="#">B2B Partnership</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Contact Us</h4>
+                    <ul class="footer-contact-list">
+                        <li style="display: flex; align-items: center; gap: 8px; font-size: 13px;">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            <span>6289590603 / 9123843327</span>
+                        </li>
+                        <li style="display: flex; align-items: center; gap: 8px; font-size: 13px;">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                            <span>9051966561</span>
+                        </li>
+                        <li style="display: flex; align-items: center; gap: 8px; font-size: 13px;">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            <a href="mailto:hello@callinghills.com" style="text-transform: none;">hello@callinghills.com</a>
+                        </li>
+                        <li style="display: flex; align-items: center; gap: 8px; font-size: 13px;">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                            <a href="https://www.callinghills.com" style="text-transform: none;">www.callinghills.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h4>Connect With Us</h4>
+                    <div class="social-icons" style="display: flex; gap: 12px; flex-wrap: wrap;">
+                        <a href="https://www.facebook.com/share/1PEQPSyFLr/" target="_blank" class="social-icon" aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                        </a>
+                        <a href="https://www.instagram.com/callinghills_official?igsh=bDJoMjI4YzQ2Ymlp" target="_blank" class="social-icon" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        </a>
+                        <a href="https://youtube.com/@callinghills?si=6iCWARLhuYF7u9qm" target="_blank" class="social-icon" aria-label="YouTube">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+                        </a>
+                        <a href="https://wa.me/message/IJWEKZTQMGAFH1" target="_blank" class="social-icon" aria-label="WhatsApp">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                        </a>
+                        <a href="https://www.linkedin.com/company/callinghills/" target="_blank" class="social-icon" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                        <a href="https://x.com/CallingHills?t=duZx4WDjIBnmWspT1prYQw&s=09" target="_blank" class="social-icon" aria-label="Twitter">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.73 16h5L9 4z"></path><path d="M4 20l6.76-6.76"></path><path d="M20 4l-5.76 5.76"></path></svg>
+                        </a>
+                        <a href="https://pin.it/23Q54ZsbI" target="_blank" class="social-icon" aria-label="Pinterest">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="22" x2="12" y2="10"></line><path d="M12 2a10 10 0 1 0 10 10 10 10 0 0 0-10-10z"></path><path d="M12 14v4"></path><path d="M12 10V6"></path><path d="M9 10h6"></path><path d="M9 14h6"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div>&copy; 2026 CallingHills. All rights reserved.</div>
+                <div>Crafted with &hearts; in the Himalayas</div>
+                <div>
+                    <a href="#">Privacy Policy</a> &nbsp;&middot;&nbsp; <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        &uarr;
+    </button>
+
+    <!-- ═══════════ MODAL & CART SYSTEM ═══════════ -->
+    <div class="enquiry-modal" id="enquiry-modal">
+        <div class="enquiry-modal-content">
+            <button class="modal-close" onclick="closeEnquiryModal()">&times;</button>
+            <div style="padding: 40px;">
+                <h3 style="font-family: var(--font-heading); font-size: 24px; color: var(--ch-mist); margin-bottom: 24px;">Enquire Now</h3>
+                <!-- Clone of contact form -->
+                <div id="modal-form-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Cart Icon -->
+    <button class="floating-cart-btn" onclick="toggleCart()">
+        🛒
+        <span class="cart-badge" id="cart-badge">0</span>
+    </button>
+
+    <!-- Cart Drawer -->
+    <div class="cart-overlay" id="cart-overlay" onclick="toggleCart()"></div>
+    <div class="cart-drawer" id="cart-drawer">
+        <div class="cart-header">
+            <div class="cart-title">Your Trip List</div>
+            <button class="cart-close" onclick="toggleCart()">&times;</button>
+        </div>
+        <div class="cart-body" id="cart-items">
+            <!-- Items injected by JS -->
+            <p style="color: var(--ch-text-mid); text-align: center; margin-top: 40px; font-family: var(--font-body);">Your list is empty.</p>
+        </div>
+        <div class="cart-footer">
+            <button class="cart-checkout-btn" onclick="proceedToEnquiry()">Proceed to Enquiry &rarr;</button>
+        </div>
+    </div>
+
+    <!-- Libraries (loaded from CDN — no Node.js needed) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
+
+
