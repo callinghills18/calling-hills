@@ -4320,3 +4320,12 @@ html, body {
         padding: 40px 12px 60px 12px !important;
     }
 }
+
+.cart-icon {
+    width: 1.1em;
+    height: 1.1em;
+    vertical-align: middle;
+    margin-right: 6px;
+    margin-bottom: 2px;
+}
+
